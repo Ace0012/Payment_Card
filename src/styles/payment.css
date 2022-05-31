@@ -1,0 +1,85 @@
+.container{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+    .Apple{
+
+        background: rgb(255, 240, 240);
+        height: 320px;
+        width: 600px;
+      padding-left: 20px;
+        /* text-align: center; */
+    }
+
+    
+    .fa-apple{
+        font-size: 60px;
+        margin-right: 9px;
+       
+        
+    }
+   
+    
+    .Apple>:nth-child(2){
+        background: #000;
+        width: 100px;
+        height: 60px;
+
+        
+        color: white;
+    }
+    .Apple>div{
+display: flex;
+justify-content: space-between;
+
+
+    }
+
+
+
+
+    .Amazon{
+
+        background: rgb(255, 189, 47);
+        height: 320px;
+        width: 600px;
+        padding-left:20px ;
+      
+        /* text-align: center; */
+    }
+
+    
+    .fa-amazon{
+        font-size: 60px;
+        margin-right: 9px;
+      
+        
+    }
+   .fa-arrow-right{
+       font-size: 20px;
+       margin-top: 4%;
+       margin-right: 9px;
+   }
+
+    .Amazon>:nth-child(2){
+        background: #000;
+        width: 100px;
+        height: 60px;
+
+        
+        color: white;
+    }
+    .Amazon>div{
+display: flex;
+justify-content: space-between;
+
+
+    }
+    h1{
+        width:200px;
+    }
+
+    
+
+
